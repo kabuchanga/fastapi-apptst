@@ -1,0 +1,8 @@
+name: fastapi_demo
+services:
+- environment_slug: python
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: kabuchanga/fastapi_apptst
+  name: fastapi_demo

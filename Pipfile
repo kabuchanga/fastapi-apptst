@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.70.0"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+pyjwt = "==1.7.1"
+python-decouple = "==3.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
