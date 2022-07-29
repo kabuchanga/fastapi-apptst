@@ -4,5 +4,5 @@ services:
   github:
     branch: master
     deploy_on_push: true
-    repo: kabuchanga/fastapi_apptst
+    repo: kabuchanga/fastapi-apptst
   name: fastapi_demo
