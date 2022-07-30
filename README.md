@@ -21,7 +21,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 
 #### **1.** Using Docker
 * In digital ocean, the settings for docker FastAPI should be as shown in the snapshot below
-* The run command blank in digtal ocean app settings. This because it is already set in  ***entrypointcmd.sh*** bash file
+* Notice run command is blank in digtal ocean app settings. This because it is already configured in the  ***entrypointcmd.sh*** bash file
 * make sure the Host port is same as that in the ***gunicorn.conf.py*** 
 * See the screenshop below on how to setup your digital ocean docker app
 * Set the root_path in the main file based on you directory tree 
