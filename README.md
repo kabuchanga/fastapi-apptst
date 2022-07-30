@@ -8,13 +8,13 @@ Use this as a template to deploy FastAPI on digitalOcean
 * make sure the Host port is same as that in the ***gunicorn.conf.py*** 
 * See the screenshop below on how to setupp your app
 * set the root-path in the main file based on you directory tree 
-    '''
+    ```
       app = FastAPI(
         title="fastapi-apptst",
         version=0.1,
         root_path="/"
       )
-    '''
+    ```
 * Notice the Route in the settings */* . if not the same you will have an error when you navigate to openAPI */docs*
 
 ![plot](./FastAPIdigitalOceanDeploy_Procfile.png)
@@ -25,13 +25,13 @@ Use this as a template to deploy FastAPI on digitalOcean
 * make sure the Host port is same as that in the ***gunicorn.conf.py*** 
 * See the screenshop below on how to setup your digital ocean docker app
 * Set the root_path in the main file based on you directory tree 
-    '''
+    ```
       app = FastAPI(
         title="fastapi-apptst",
         version=0.1,
         root_path="/"
       )
-    '''
+    ```
 * Notice the Route in the settings */* . if not the same you will have an error when you navigate to openAPI */docs*
 
 ![plot](./FastAPIdigitalOceanDeploy_Procfile.png)
@@ -44,7 +44,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 * When deploying to Digital Ocean, 2 applictions will be detected because I have Doker file and Procfile. Thus you will deploy two(Procfile & Docker) instances of the same code base
 * You may delete any to so that you deploy one app at a time.
 
-####### Good Luck
+##### Good Luck!! with you first FastAPI on Digital Ocean
 
 
-![plot](./FastAPIdigitalOceanDeploy_Procfile.png)
+
