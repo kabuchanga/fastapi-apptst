@@ -25,7 +25,7 @@ posts = [{
 
 users =[]
 
-app = FastAPI()
+#app = FastAPI()
 
 app = FastAPI(
     title="fastapi-apptst",
