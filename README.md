@@ -1,5 +1,5 @@
 
-# FastAPI Application 
+# How to deploy FastAPI Application to Digital Ocean
 Use this as a template to deploy FastAPI on digitalOcean
 * In digital ocean, the settings should be as shown in the snapshot below
 * The run command should be the same as that in the # Procfile 
