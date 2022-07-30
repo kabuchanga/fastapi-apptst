@@ -34,7 +34,7 @@ Use this as a template to deploy FastAPI on digitalOcean
     ```
 * Notice the Route in the settings */* . if not the same you will have an error when you navigate to openAPI */docs*
 
-![plot](./FastAPIdigitalOceanDeploy_Procfile.png)
+![plot](./FastAPIdigitalOceanDeploy_Docker.png)
 
 ## Deploying the App
 
