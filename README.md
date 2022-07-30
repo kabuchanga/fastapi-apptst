@@ -44,7 +44,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 * When deploying to Digital Ocean, 2 applictions will be detected because I have Doker file and Procfile. Thus you will deploy two(Procfile & Docker) instances of the same code base
 * You may delete any to so that you deploy one app at a time.
 
-##### Good Luck!! with you first FastAPI on Digital Ocean
+##### Good Luck!! with your first FastAPI on Digital Ocean
 
 
 
