@@ -1,1 +1,1 @@
-web: uvicorn main:app --port 80
+uvicorn main:app --port 80
