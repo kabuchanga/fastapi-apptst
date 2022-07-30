@@ -6,4 +6,4 @@
 
 #uvicorn main:app --proxy-headers --port 80
 
-gunicorn --worker-tmp-dir /dev/shm --config gunicorn.config.py main:app --port 80
+gunicorn --worker-tmp-dir /dev/shm --config gunicorn.conf.py main:app
