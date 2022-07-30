@@ -9,7 +9,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 * https://github.com/zubin-madon/NFTrees
 * https://docs.digitalocean.com/products/app-platform/reference/buildpacks/python/
 #### NB:
-* When deploying to Digital Ocean 2 applictions will be detected becuse I have Doker file and Procfile. Ignore Docker app and choose the webservice app(one that uses Procfile)
+* When deploying to Digital Ocean, 2 applictions will be detected becuse I have Doker file and Procfile. Ignore Docker app and choose the webservice app(one that uses Procfile)
 
 
 ![plot](./FastAPIdigitalOceanDeploy.png)
