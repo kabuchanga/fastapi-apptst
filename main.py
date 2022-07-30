@@ -6,7 +6,11 @@ from app.model import PostSchema, UserSchema, UserLoginSchema
 from app.auth.jwt_handler import signJWT
 from app.auth.jwt_bearer import  jwtBearer
 
-
+app = FastAPI(
+    title="fastapi-apptst",
+    version=0.1,
+    root_path="/dev/"
+)
 
 posts = [{
     "id":1,
