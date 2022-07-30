@@ -2,7 +2,7 @@
 # How to deploy FastAPI Application to Digital Ocean
 Use this as a template to deploy FastAPI on digitalOcean
 
-#### **1.** Using Procfile 
+### **1.** Using Procfile 
 * In digital ocean, the settings should be as shown in the snapshot below
 * The run command in digital ocean app settingg should be the same as that in the ***Procfile***
 * make sure the Host port is same as that in the ***gunicorn.conf.py*** 
@@ -19,7 +19,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 
 ![plot](./FastAPIdigitalOceanDeploy_Procfile.png)
 
-#### **1.** Using Docker
+### **2.** Using Docker
 * In digital ocean, the settings for docker FastAPI should be as shown in the snapshot below
 * Notice run command is blank in digtal ocean app settings. This because it is already configured in the  ***entrypointcmd.sh*** bash file
 * make sure the Host port is same as that in the ***gunicorn.conf.py*** 
@@ -42,7 +42,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 * https://docs.digitalocean.com/products/app-platform/reference/buildpacks/python/
 ##### NB:
 * When deploying to Digital Ocean, 2 applictions will be detected because I have Doker file and Procfile. Thus you will deploy two(Procfile & Docker) instances of the same code base
-* You may delete any to so that you deploy one app at a time.
+* You may delete any, so that you can deploy one app at a time.
 
 ##### Good Luck!! with your first FastAPI on Digital Ocean
 
