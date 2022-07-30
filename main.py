@@ -30,7 +30,7 @@ users =[]
 app = FastAPI(
     title="fastapi-apptst",
     version=0.1,
-    root_path="/dev/"
+    root_path="/"
 )
 
 #1 get - for testing
