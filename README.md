@@ -1,6 +1,9 @@
 
 # How to deploy FastAPI Application to Digital Ocean
 Use this as a template to deploy FastAPI on digitalOcean
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=f2e79e05fefd&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+https://m.do.co/c/f2e79e05fefd
 
 ### **1.** Using Procfile 
 * In digital ocean, the settings should be as shown in the snapshot below
@@ -40,7 +43,7 @@ Use this as a template to deploy FastAPI on digitalOcean
 
 Click this button to deploy the app to the DigitalOcean App Platform. If you are not logged in, you will be prompted to log in with your DigitalOcean account.
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/kabuchanga/fastapi-apptst/tree/main)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/kabuchanga/fastapi-apptst/tree/main&refcode=f2e79e05fefd)
 
 If you want to automatically re-deploy your app, [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the GitHub repository to your account so that you have a copy of it stored to the cloud. Click the **Fork** button in the GitHub repository and follow the on-screen instructions.
 
