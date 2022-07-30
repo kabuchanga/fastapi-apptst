@@ -42,6 +42,8 @@ Click this button to deploy the app to the DigitalOcean App Platform. If you are
 
 [![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/kabuchanga/fastapi-apptst/tree/main)
 
+If you want to automatically re-deploy your app, [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the GitHub repository to your account so that you have a copy of it stored to the cloud. Click the **Fork** button in the GitHub repository and follow the on-screen instructions.
+
 ##### Credits to:          
 * https://dev.to/mrcartoonster/fastapi-do-deploy-1h10 
 * https://github.com/zubin-madon/NFTrees
