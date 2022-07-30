@@ -1,4 +1,4 @@
 
 # FastAPI Application 
-You can use this as the quickest way to deploy FastAPI on digitalOcean
+Use this as a template to deploy FastAPI on digitalOcean
 * demo app for fastapi
