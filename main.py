@@ -6,11 +6,7 @@ from app.model import PostSchema, UserSchema, UserLoginSchema
 from app.auth.jwt_handler import signJWT
 from app.auth.jwt_bearer import  jwtBearer
 
-app = FastAPI(
-    title="fastapi-apptst",
-    version=0.1,
-    root_path="/dev/"
-)
+
 
 posts = [{
     "id":1,
@@ -31,10 +27,21 @@ users =[]
 
 app = FastAPI()
 
+app = FastAPI(
+    title="fastapi-apptst",
+    version=0.1,
+    root_path="/dev/"
+)
+
 #1 get - for testing
+'''
 @app.get("/", tags=["test"])
 def greet():
     return {"Hello": "World", "Welcome":"To my FastAPI Demo"}
+ '''
+@app.get("/", tags=["FastAPI"])
+def root():
+    return {"message": "hello world again"}
 #2 get all posts
 @app.get("/posts", tags=["posts"])
 def get_posts():
