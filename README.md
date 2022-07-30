@@ -1,9 +1,10 @@
 
 # How to deploy FastAPI Application to Digital Ocean
 Use this as a template to deploy FastAPI on digitalOcean
+
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=f2e79e05fefd&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
-https://m.do.co/c/f2e79e05fefd
+[![Get Started with DigitalOcean 100 credits free ](https://m.do.co/c/f2e79e05fefd)
 
 ### **1.** Using Procfile 
 * In digital ocean, the settings should be as shown in the snapshot below
