@@ -44,7 +44,8 @@ Click this button to deploy the app to the DigitalOcean App Platform. If you are
 
 If you want to automatically re-deploy your app, [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the GitHub repository to your account so that you have a copy of it stored to the cloud. Click the **Fork** button in the GitHub repository and follow the on-screen instructions.
 
-##### Credits to:          
+##### Credits to:
+* https://github.com/digitalocean/sample-python
 * https://dev.to/mrcartoonster/fastapi-do-deploy-1h10 
 * https://github.com/zubin-madon/NFTrees
 * https://docs.digitalocean.com/products/app-platform/reference/buildpacks/python/
