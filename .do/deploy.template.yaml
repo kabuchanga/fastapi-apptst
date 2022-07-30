@@ -1,8 +1,8 @@
-spec:
-  name: fastapi_demo
+ spec:
+  name: fastapi-apptst
   services:
-  - environment_slug: python
-    git:
-      branch: main
-      repo_clone_url: https://github.com/kabuchanga/fastapi-apptst.git
-    name: fastapi_demo
+    - name: fastapi-apptst
+      git:
+        branch: main
+        repo_clone_url: https://github.com/kabuchanga/fastapi-apptst.git
+    
